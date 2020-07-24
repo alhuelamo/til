@@ -12,7 +12,7 @@ There are currently {nnotes} notes.
 """
 
 topics = dict()
-pattern = re.compile("^(.*)\/.*$")
+pattern = re.compile(r"^(.*)\/.*$")
 
 for md in files:
     topic = pattern.findall(md)[0]
