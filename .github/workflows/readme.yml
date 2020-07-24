@@ -1,0 +1,28 @@
+name: Readme
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  generate_readme:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'
+
+    - name: Generate README.md
+      run: |
+        python update_readme.py
+    
+    - name: Commit and push if README changed
+      run: |
+        git diff
+        git config --global user.email "readme-bot@example.com"
+        git config --global user.name "README-bot"
+        git diff
+        git diff --quiet || (git add README.md && git commit -m 'Updated README')
+        git push
