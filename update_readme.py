@@ -23,5 +23,12 @@ for md in files:
 for topic in topics:
     template += f"## {topic}\n"
 
+    for title, path in topics[topic]:
+        template += f"* [{title}]({path})\n"
 
-print(template)
+    template += "\n"
+
+output = template.format(nnotes=len(files))
+
+with open("README.md", "w") as fp:
+    fp.write(output)
