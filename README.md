@@ -2,7 +2,7 @@
 
 My TIL notes inspired by [simonw/til](https://github.com/simonw/til).
 
-There are currently 5 notes.
+There are currently 6 notes.
 
 ## macOS
 * [Adding window gaps to Rectangle app](macOS/rectangle-app-gaps.md)
@@ -16,4 +16,7 @@ There are currently 5 notes.
 
 ## scala
 * [Example of a simple retry function in Scala](scala/retry.md)
+
+## unix
+* [Disable email address in crontab](unix/no-email-crontab.md)
 
