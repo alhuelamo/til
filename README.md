@@ -18,5 +18,5 @@ There are currently 6 notes.
 * [Example of a simple retry function in Scala](scala/retry.md)
 
 ## unix
-* [Disable email address in crontab](unix/no-email-crontab.md)
+* [Disable mail alerts in crontab](unix/no-email-crontab.md)
 
