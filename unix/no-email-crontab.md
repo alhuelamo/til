@@ -1,4 +1,4 @@
-# Disable email address in crontab
+# Disable mail alerts in crontab
 
 Crontab won't generate any email updates if the standard output and standard error of the command redirects to `/dev/null`
 
