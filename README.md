@@ -2,7 +2,7 @@
 
 My TIL notes inspired by [simonw/til](https://github.com/simonw/til).
 
-There are currently 6 notes.
+There are currently 7 notes.
 
 ## macOS
 * [Adding window gaps to Rectangle app](macOS/rectangle-app-gaps.md)
@@ -12,6 +12,7 @@ There are currently 6 notes.
 * [Run Python tests (`unittest`) in a particular folder](python/unittest-discover.md)
 
 ## sbt
+* [Run a single unit test in SBT](sbt/run-single-test.md)
 * [Fixing SBT powershell error in Windows](sbt/windows-wbt-fix.md)
 
 ## scala
