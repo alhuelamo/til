@@ -2,7 +2,10 @@
 
 My TIL notes inspired by [simonw/til](https://github.com/simonw/til).
 
-There are currently 8 notes.
+There are currently 9 notes.
+
+## linux
+* [Map Caps Lock key to Ctrl and Escape in GNOME](linux/caps-lock-to-ctrl-escape.md)
 
 ## macOS
 * [Adding window gaps to Rectangle app](macOS/rectangle-app-gaps.md)
