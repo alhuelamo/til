@@ -2,7 +2,10 @@
 
 My TIL notes inspired by [simonw/til](https://github.com/simonw/til).
 
-There are currently 9 notes.
+There are currently 10 notes.
+
+## bash
+* [Using trap DEBUG to debugging a script line by line](bash/trap-debug.md)
 
 ## linux
 * [Map Caps Lock key to Ctrl and Escape in GNOME](linux/caps-lock-to-ctrl-escape.md)
